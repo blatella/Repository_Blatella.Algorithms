@@ -1,7 +1,7 @@
 package blatella.Algorithms.Common.LanguageIdentification;
 import java.util.*;
 import blatella.Common.*;
-//commit_005
+
 class CountWrapper 
 {
 	protected String textWrapper;
@@ -28,7 +28,7 @@ class CountWrapper
 		this.textToFind = textToFind;
 	}
 	
-	CountWrapper()
+	public CountWrapper()
     {
 		setTextWrapper(Utility.EMPTY_STRING);
 		setTextToFind(new ArrayList<WritableTuple_2<String, Integer>>());
